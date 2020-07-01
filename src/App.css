@@ -1,0 +1,123 @@
+.header-color {
+  background: #FFE000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #42b2f3, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #42b2f3, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.landing-grid {
+  background: #FFE000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #42b2f3, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #42b2f3, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.loja-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.avatar-img {
+  height: 200px;
+  padding-top: 50px;
+}
+
+.trailer-title {
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  font-family: 'Lato' sans-serif;
+  font-size: 20px;
+}
+
+.trailer-title-yelow {
+  font-weight: bold;
+  font-style: italic;
+  color: yellow;
+  font-family: 'Lato' sans-serif;
+  font-size: 20px;
+}
+
+/*menu de compras*/
+
+.shop-menu {
+  padding: 220px;
+  text-align: center;
+}
+
+.shop-menu p1 {
+  font-family: 'Lato'sans-serif;
+  font-size: 50px;
+  color: black;
+  font-weight: lighter;
+  padding: 100px;
+} 
+
+/*Banner de baixo da página inicial*/
+
+.banner-text {
+  background-color: black;
+  opacity: .85;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  border-radius: 10px;
+  
+}
+
+.banner-text h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: yellow;
+  padding-top: 5px;
+  margin-bottom: 9px;
+}
+
+.banner-text hr {
+  border-top: 3px solid white;
+  width: 50%;
+  margin: auto;
+  }
+
+  .banner-text p {
+   color: white;
+   font-size: 20px;
+   padding: 1em;
+   margin-top: -2px;
+   margin-bottom: 0px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+
+  .social-links i {
+    color: yellow;
+    font-size: 5em;
+    opacity: .8;
+    padding: 8px;
+  }
+
+  /* reserva e dados do cliente */
+
+  .dados-cliente {
+    padding: 20px;
+    margin-left: 1%;
+  }
+
+  .dados-cliente h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+  }
+
+  
