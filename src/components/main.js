@@ -1,21 +1,25 @@
-import React from 'react';
+import React from "react";
 import { Switch, Route } from 'react-router-dom';
 import LandingPage from './landingPage';
-import AboutMe from './aboutMe';
-import Contact from './contact';
 import Loja from './loja';
-import Resume from './resume';
-import Reserva from './reserva';
+import Reserva from './no_use/reserva';
+import Login from "./no_use/login";
+//import Login from './login';
+//import { AppContext } from "../libs/contextLib";
 
+//comentários feitos caso o uso do Cognito seja feito posteriormente, evitar retrabalho
+
+//const [isAuthenticated, userHasAuthenticated] = useState(false);
 const Main = () => (
+//   <AppContext.Provider value={{ isAuthenticated, userHasAuthenticated }}>
     <Switch>
         <Route exact path = "/" component = {LandingPage} />
-        <Route path = "/aboutMe" component = {AboutMe} />
-        <Route path = "/contact" component = {Contact} />
         <Route path = "/loja" component = {Loja} />
-        <Route path = "/resume" component = {Resume} />
         <Route path = "/reserva" component = {Reserva} />
-    </Switch>
+        <Route path = "/login" component = {Login} />
+
+   </Switch>
+//</AppContext.Provider>
 )
 
 export default Main;

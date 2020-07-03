@@ -1,7 +1,7 @@
 export default {
     s3: {
       REGION: "sa-east-1",
-      BUCKET: "vitor-bgc-uploads"
+      BUCKET: "bgc-minions-app"
     },
     apiGateway: {
       REGION: "us-east-1",

@@ -5,19 +5,27 @@ import Main from './components/main';
 import { Link } from 'react-router-dom';
 
 function App(){
+ //   const [isAuthenticated, userHasAuthenticated] = useState(false);
+
+/*function handleLogout() {
+  userHasAuthenticated(false);
+}*/
   return(
     <div className="demo-big-content">
     <Layout>
         <Header className="header-color" title="BGC Toys" scroll>
+    
             <Navigation>
                 <Link to="/loja">Loja</Link>
                 <Link to="/">Home</Link>
+                <Link to="/login">Login</Link>
             </Navigation>
         </Header>
         <Drawer title="BGC Toys">
             <Navigation>
                 <Link to="/loja">Loja</Link>
                 <Link to="/">Home</Link>
+                <Link to="/login">Login</Link>
             </Navigation>
         </Drawer>
         <Content>

@@ -8,15 +8,16 @@ class Landing extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img 
-                            src="https://lh3.googleusercontent.com/proxy/HwWLVhmykYnzI2iBcKTqJMRO322_Z6UVhDsDrI2yZh8C8Uvk3k700EGNeMvAuYzy-kIOBWDGiSMKx0sPji-3weWTq9ri4eosZkWzev0HPe1GCWM71tnOs6KN"
+                       <a href="https://link.pipefy.com/ls/click?upn=wprfjg1SGgxHmHWvp6VU745P-2BxS9wfYDHJGHuWunSBszUIge54wPBd1XrDfrD7G2M8NX_hkEPCLXJWw5nEVxvNMzn90obY7U0K1na8uocOruM1h6kpTY6GWv8AF-2BbEIbg2ZoASzpBGPUWR2nQmHnBamkuEthtuVBGhB-2FXZOf024Ux9jXy5-2FZawzc-2Bst1ub6thMRoFN9zKSIKXMQg6oJo7W7Yvv3EeQExj-2Fo7ExIwpbrYMbCXZZgtcIPXjGOHTWDKFEugeq4LfbrutbhfNNvXZZ1rqZuzOIPA-2B75npaFBf4sWu5LE-3D">
+                           <img 
+                            src="https://minions-bgc-toys.s3.amazonaws.com/minion-icon-sfundo.png"
                             alt="avatar"
                             className="avatar-img"
-                        />
+                        /> </a>
                             {/*shop menu*/}
 
-                        <div className="shop-menu">
-                           <p1><Link to="/loja">Loja</Link></p1>
+                        <div className="shop-menu-link">
+                           <h1><Link to="/loja">Loja</Link></h1>
                           
                         </div>
 

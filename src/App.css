@@ -22,6 +22,13 @@
   justify-content: space-around;
 }
 
+/*link para menu de compras*/
+
+.shop-menu-link {
+  padding: 160px;
+  text-align: center;
+}
+
 .avatar-img {
   height: 200px;
   padding-top: 50px;
@@ -43,21 +50,6 @@
   font-size: 20px;
 }
 
-/*menu de compras*/
-
-.shop-menu {
-  padding: 220px;
-  text-align: center;
-}
-
-.shop-menu p1 {
-  font-family: 'Lato'sans-serif;
-  font-size: 50px;
-  color: black;
-  font-weight: lighter;
-  padding: 100px;
-} 
-
 /*Banner de baixo da página inicial*/
 
 .banner-text {
@@ -66,8 +58,7 @@
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
-  border-radius: 10px;
-  
+  border-radius: 10px; 
 }
 
 .banner-text h1 {
@@ -78,7 +69,7 @@
   color: yellow;
   padding-top: 5px;
   margin-bottom: 9px;
-}
+  }
 
 .banner-text hr {
   border-top: 3px solid white;
@@ -108,7 +99,7 @@
     padding: 8px;
   }
 
-  /* reserva e dados do cliente */
+  /* reserva e dados do cliente - NO USE */
 
   .dados-cliente {
     padding: 20px;
@@ -120,4 +111,48 @@
     font-size: 18pt;
   }
 
-  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  /*form de reserva - correto*/
+
+  .email--form {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 80px;
+  }
+
+  .reserve--button {
+    color: red;
+  }
+
+  .reserve--button:hover {
+    cursor: pointer;
+  }
+
+  .shop {
+    width: 100%;
+    height: 100%;
+  }
+
+  .close-reserve {
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    color: white;
+    background-color: black;
+    padding-left: 4px;
+    padding-right: 5px;
+    border-radius: 5px;
+    opacity: 55%;
+    
+  }
+
+  .close-reserve:hover {
+    cursor: pointer;
+  }
