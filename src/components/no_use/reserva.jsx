@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Textfield } from 'react-mdl';
 import { API } from "aws-amplify";
 
-function sendmail (note) {
-   return API.post("minions", "/minions", {
+function productReservation (note) {
+   return API.post("reserve", "/reserve", {
         body: note
     });
 }
@@ -12,15 +12,16 @@ class Reserva extends Component {
     constructor (){
         super();
         this.state = {
-            nome: "",
-            email: ""
+            fullname: "",
+            email: "",
+            contact: ""
         };
         
         this.onChange = this.onChange.bind(this)
     }
 
     onChange(evento) {
-        this.setState({nome: evento.target.value})
+        this.setState({fullname: evento.target.value})
     }
 
     render(){
@@ -29,8 +30,9 @@ class Reserva extends Component {
         return (
             <div className="dados-cliente">
                 <h1>Preencha seus dados abaixo:</h1>
-                <p>nome: <input name="nome" onChange={(e) => this.onChange(e)} type="text" /> </p> <br/>
+                <p>nome: <input name="fullname" onChange={(e) => this.onChange(e)} type="text" /> </p> <br/>
                 <p>email:<input name="email" onChange={(e) => this.onChange(e)} type="text" /> <br/></p>
+                <p>Contato:<input name="contact" onChange={(e) => this.onChange(e)} type="number" /> <br/></p>
 
              {/* Textfield with floating label */}
              <Textfield className="nome-completo"
@@ -66,7 +68,7 @@ class Reserva extends Component {
               style={{width: '700px'}}
             />
 
-            <button onClick = {() => sendmail(this.state.nome)}> Enviar </button>
+            <button onClick = {() => productReservation(this.state.fullname)}> Enviar </button>
             </div>  
                  
         )

@@ -10,7 +10,7 @@ class Landing extends Component {
                     <Cell col={12}>
                        <a href="https://link.pipefy.com/ls/click?upn=wprfjg1SGgxHmHWvp6VU745P-2BxS9wfYDHJGHuWunSBszUIge54wPBd1XrDfrD7G2M8NX_hkEPCLXJWw5nEVxvNMzn90obY7U0K1na8uocOruM1h6kpTY6GWv8AF-2BbEIbg2ZoASzpBGPUWR2nQmHnBamkuEthtuVBGhB-2FXZOf024Ux9jXy5-2FZawzc-2Bst1ub6thMRoFN9zKSIKXMQg6oJo7W7Yvv3EeQExj-2Fo7ExIwpbrYMbCXZZgtcIPXjGOHTWDKFEugeq4LfbrutbhfNNvXZZ1rqZuzOIPA-2B75npaFBf4sWu5LE-3D">
                            <img 
-                            src="https://minions-bgc-toys.s3.amazonaws.com/minion-icon-sfundo.png"
+                            src="https://img-bucket-bgc.s3.amazonaws.com/minion-icon-sfundo.png"
                             alt="avatar"
                             className="avatar-img"
                         /> </a>

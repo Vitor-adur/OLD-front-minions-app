@@ -17,7 +17,6 @@ const Main = () => (
         <Route path = "/loja" component = {Loja} />
         <Route path = "/reserva" component = {Reserva} />
         <Route path = "/login" component = {Login} />
-
    </Switch>
 //</AppContext.Provider>
 )

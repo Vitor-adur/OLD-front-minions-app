@@ -18,14 +18,12 @@ function App(){
             <Navigation>
                 <Link to="/loja">Loja</Link>
                 <Link to="/">Home</Link>
-                <Link to="/login">Login</Link>
             </Navigation>
         </Header>
         <Drawer title="BGC Toys">
             <Navigation>
                 <Link to="/loja">Loja</Link>
                 <Link to="/">Home</Link>
-                <Link to="/login">Login</Link>
             </Navigation>
         </Drawer>
         <Content>
